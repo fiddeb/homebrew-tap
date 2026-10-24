@@ -1,25 +1,25 @@
 class Occ < Formula
   desc "OTLP Cardinality Checker"
   homepage "https://github.com/fiddeb/occ"
-  version "0.6.1"
+  version "0.7.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fiddeb/occ/releases/download/v0.6.1/otlp_cardinality_checker-darwin-arm64.zip"
-      sha256 "0acaa29ed7b5d82563294057fc25f29fa6f77de0934688f065d094e3fb33f729"
+      url "https://github.com/fiddeb/occ/releases/download/v0.7.0/otlp_cardinality_checker-darwin-arm64.zip"
+      sha256 "af7423f9a3a53dc6f72816eef8d7bd131a2c1625e49ac9ba5cdca5368da21b11"
     else
-      url "https://github.com/fiddeb/occ/releases/download/v0.6.1/otlp_cardinality_checker-darwin-amd64.zip"
-      sha256 "4a47e9438ed693e8bfaa3877174ac2c981f826ec0d6b7b22e7756bdb02da0d49"
+      url "https://github.com/fiddeb/occ/releases/download/v0.7.0/otlp_cardinality_checker-darwin-amd64.zip"
+      sha256 "394808339b73fec8bf4a1e20d1ab83e5281d553a3f575ca62e08ba02379cdd2b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fiddeb/occ/releases/download/v0.6.1/otlp_cardinality_checker-linux-arm64.tar.gz"
-      sha256 "cfcff67b6616c65cebdbfa122f2c74a362b4eb004e2b86ca0128f19622eabbd7"
+      url "https://github.com/fiddeb/occ/releases/download/v0.7.0/otlp_cardinality_checker-linux-arm64.tar.gz"
+      sha256 "762ee54c83259018a8b711c6f58b33f667d0761ac8cc9e9bfa487c0c49fa5f03"
     else
-      url "https://github.com/fiddeb/occ/releases/download/v0.6.1/otlp_cardinality_checker-linux-amd64.tar.gz"
-      sha256 "e4c3291fddcb0bec35875b23d724e6725f1ff4f228a7964cc636e12a5e893d77"
+      url "https://github.com/fiddeb/occ/releases/download/v0.7.0/otlp_cardinality_checker-linux-amd64.tar.gz"
+      sha256 "60589d350b1fe429ebd10f7211c1f93fb8e83de1f4d43a2ff02e40440989442d"
     end
   end
 
