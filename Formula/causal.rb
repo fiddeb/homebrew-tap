@@ -1,9 +1,9 @@
 class Causal < Formula
   desc "Local evidence-led investigation workspace"
   homepage "https://github.com/fiddeb/causal-releases"
-  url "https://github.com/fiddeb/causal-releases/releases/download/v0.0.8/causal-v0.0.8-darwin-arm64.zip"
-  version "0.0.8"
-  sha256 "74d2eeeb6457db2f37d6bee695bfaf8e4c707e0acde8f613dda5f90b74c04f57"
+  url "https://github.com/fiddeb/causal-releases/releases/download/v0.0.9/causal-v0.0.9-darwin-arm64.zip"
+  version "0.0.9"
+  sha256 "f05c8e5d8e3a90ebfe40d6626ae7785cd3133f282930156f6b308b4b4c3affdc"
   license "MIT"
   depends_on :macos
   depends_on arch: :arm64
@@ -24,6 +24,6 @@ class Causal < Formula
   end
 
   test do
-    assert_match "v0.0.8", shell_output("#{bin}/causal --version")
+    assert_match "v0.0.9", shell_output("#{bin}/causal --version")
   end
 end
